@@ -3,13 +3,13 @@
 ## อธิบาย
 ### โครงสร้างโปรเจค
     portfolio-website/
-    ├── index.html
     ├── css/
     │   └── style.css 
     ├── images/
     │   └── (รูปต่างๆ)
     ├── js/
     │   └── script.js
+    ├── index.html
     └── README.md
 
 ### รายละเอียดแต่ละไฟล์
