@@ -43,13 +43,13 @@ window.addEventListener('scroll', () => {
 const contactForm = document.querySelector('.contact-form');
 contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
-    
-    // Get form data
+
+    //  Get form data
     const formData = new FormData(contactForm);
     const name = formData.get('name');
     const email = formData.get('email');
     const message = formData.get('message');
-    
+
     // Simple validation
     if (name && email && message) {
         alert('Thank you for your message! I will get back to you soon.');
