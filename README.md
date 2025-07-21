@@ -6,7 +6,6 @@
 
 ### `index.html`
 - โครงสร้างของหน้าเว็บ
-- แสดงหัวข้อ `Hello, World!`
 - ปุ่ม `<button>` ที่เรียกใช้ฟังก์ชัน JavaScript
 
 ### `style.css`
