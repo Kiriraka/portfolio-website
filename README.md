@@ -14,7 +14,7 @@
 - กำหนดลักษณะของตัวอักษรและหัวข้อ
 
 ### `main.js`
-- ฟังก์ชัน `showMessage()` แสดงข้อความ popup เมื่อลูกค้าคลิกปุ่ม
+- ฟังก์ชัน `showMessage()` แสดงข้อความ popup เมื่อคลิกปุ่ม
 
 ```javascript
 function showMessage() {
