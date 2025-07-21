@@ -58,3 +58,41 @@ contactForm.addEventListener('submit', (e) => {
         alert('Please fill in all fields.');
     }
 });
+
+// แสดงปุ่มเมื่อเลื่อนลงเกิน 100px
+window.onscroll = function () {
+    const btn = document.getElementById("scrollTopBtn");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        btn.style.display = "block";
+    } else {
+        btn.style.display = "none";
+    }
+};
+
+// ฟังก์ชันเลื่อนไปบนสุด
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// แสดง/ซ่อนปุ่มเมื่อ scroll
+window.addEventListener('scroll', function () {
+    const btn = document.getElementById("scrollBottomBtn");
+
+    // เช็กว่าอยู่ล่างสุดหรือยัง
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const windowHeight = window.innerHeight;
+    const docHeight = document.documentElement.scrollHeight;
+
+    if (scrollTop + windowHeight >= docHeight - 5) {
+        // ซ่อนปุ่มถ้าอยู่ล่างสุด (เผื่อไว้ 5px ป้องกันพลาด)
+        btn.classList.add("hidden");
+    } else {
+        // แสดงปุ่มถ้ายังไม่ถึงล่างสุด
+        btn.classList.remove("hidden");
+    }
+});
+
+// ฟังก์ชันเลื่อนไปล่างสุด
+function scrollToBottom() {
+    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+}
