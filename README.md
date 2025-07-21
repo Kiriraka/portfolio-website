@@ -2,7 +2,7 @@
 
 # อธิบาย
 
-## 🧾 รายละเอียดแต่ละไฟล์
+## รายละเอียดแต่ละไฟล์
 
 ### `index.html`
 - โครงสร้างของหน้าเว็บ
@@ -15,4 +15,4 @@
 ### `main.js`
 - ฟังก์ชัน `showMessage()` แสดงข้อความ popup เมื่อคลิกปุ่ม
 
-## [เอกสาร](https://docs.google.com/document/d/1_uOD7wGJ4a9AEog13qBkNqSiBoQHNbyaOzHGwkTwYtM/edit?usp=sharing)
+# [เอกสาร](https://docs.google.com/document/d/1_uOD7wGJ4a9AEog13qBkNqSiBoQHNbyaOzHGwkTwYtM/edit?usp=sharing)
