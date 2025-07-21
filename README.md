@@ -1,6 +1,17 @@
 # TASK2: Portfolio Website Development (Part1 - Individual)
 
 ## อธิบาย
+### โครงสร้างโปรเจค
+    portfolio-website/
+    ├── index.html
+    ├── css/
+    │   └── style.css 
+    ├── images/
+    │   └── (รูปต่างๆ)
+    ├── js/
+    │   └── script.js
+    └── README.md
+
 ### รายละเอียดแต่ละไฟล์
 ### `index.html`
 - โครงสร้างของหน้าเว็บ
